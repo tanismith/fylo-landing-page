@@ -1,0 +1,48 @@
+footer {
+  background: $VeryDarkBlue;
+  color: white;
+  padding: 0 5em;
+  font-family: $textFont;
+  line-height: 2;
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 0.3fr;
+  .logoFooter {
+    margin: 3em 0 1em;
+  }
+  .widgets {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .contactBox,
+    .aboutUsMenuBox,
+    .contactUsMenuBox,
+    .creditsBox {
+      width: 25%;
+    }
+    .contactBox div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      img {
+        width: 20px;
+        height: 15px;
+        margin-right: 1em;
+      }
+    }
+    menu {
+      ul {
+        list-style: none;
+      }
+    }
+    .social {
+      .svg-inline--fa {
+        color: white;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 50%;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}

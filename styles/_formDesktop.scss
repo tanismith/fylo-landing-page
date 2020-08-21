@@ -1,0 +1,26 @@
+form {
+  @include flexCenter(row);
+  align-items: center;
+  background: yellow;
+  input,
+  button {
+    width: 90%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid $LightGray;
+    margin: 0.5em 0;
+    outline-style: none;
+  }
+  input {
+    color: $VeryDarkBlue;
+    padding-left: 20px;
+  }
+  button {
+    background: $BrightBlue;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+  }
+}
