@@ -1,7 +1,7 @@
 form {
   @include flexCenter(row);
   align-items: center;
-
+  background: yellow;
   input,
   button {
     width: 90%;
