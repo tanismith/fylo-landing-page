@@ -15,9 +15,6 @@ $LightGray: hsl(0, 0%, 75%);
 $titlesFont: "Raleway", sans-serif;
 $textFont: "Open Sans", sans-serif;
 
-@import "./mobileStyles";
-@import "./desktopStyle";
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -25,3 +22,6 @@ $textFont: "Open Sans", sans-serif;
     color: $ModerateCyan;
   }
 }
+
+@import "./desktopStyle";
+@import "./mobileStyles";
